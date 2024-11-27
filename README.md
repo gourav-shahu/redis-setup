@@ -1,18 +1,5 @@
 # Azure Redis Cache Setup
 
-## Code Structure
-backend/
-├── app/
-│   ├── controller.py  # Example API endpoint with Redis caching
-├── utils/
-│   ├── redis_utility.py           # Utility for Redis caching
-│   ├── extensions.py              # Redis client setup
-├── requirements.txt               # Python dependencies
-├── .env                           # envrionment variables
-└── runner.py                # flask App config 
-
-
-
 ## Step 1: Create a Redis Instance
 Log in to Azure Portal.
 Search for Redis Cache and select Create.
