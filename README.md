@@ -29,3 +29,16 @@ pip install -r requirements.txt
 
 Run the flask server
 python runner.py
+
+## Folder Structure
+runner.py
+The entry point of the Flask application. It initializes the app, extensions, and routes.
+
+extensions.py
+Contains the initialization code for third-party extensions, including the Redis utility. The init_extensions function sets up the Redis client using the utility.
+
+utils/redis_utility.py
+A reusable utility class for Redis integration. Provides methods to connect to a Redis server, set, get, delete cache, and compute cache keys. This file can be used across different projects.
+
+controllers/controller.py
+Demonstrates how to use the Redis utility in a Flask API controller. It includes caching logic to optimize API responses.
