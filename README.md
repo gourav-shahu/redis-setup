@@ -37,4 +37,4 @@ python runner.py
 
 **utils/redis_utility.py** - A reusable utility class for Redis integration. Provides methods to connect to a Redis server, set, get, delete cache, and compute cache keys. This file can be used across different projects.
 
-**controllers/controller.py** - Demonstrates how to use the Redis utility in a Flask API controller. It includes caching logic to optimize API responses.
+**app/controller.py** - Demonstrates how to use the Redis utility in a Flask API controller. It includes caching logic to optimize API responses.
